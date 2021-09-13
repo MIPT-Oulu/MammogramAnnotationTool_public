@@ -29,6 +29,8 @@ Main_GUI
 
 This software is published under the [MIT licence](https://github.com/MIPT-Oulu/MammogramAnnotationTool_public/blob/main/LICENSE).
 
+Licenses for third party components are listed in the [NOTICE](https://github.com/MIPT-Oulu/MammogramAnnotationTool_public/blob/main/NOTICE.txt) file.
+
 The software has not been certified as a medical device and, therefore, must not be used for diagnostic purposes.
 
 ## Acknowledgements
