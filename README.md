@@ -15,7 +15,7 @@ From MATLAB Command Window run
 
 ## Data requirements
 
-Each examination is required to have 4 standard mammographic views. These examinations should be listed in a dedicated `study_info.csv` file. The `study_info.csv` file within the root of your `CUSTOMDATASET` folder, an example file is also provided. Mammograms should be located in `images` within the same root folder. The software will make folders for saving annotation masks and other results in `mat` and `csv` format.
+Each examination is required to have 4 standard mammographic views. These examinations should be listed in a dedicated `study_info.csv` file, an example file is provided. The `study_info.csv` file should be located within the root of your `CUSTOMDATASET` folder. Mammograms should be located in `images` within the same root folder. The software will make additional subfolders for saving annotation masks and other results in `mat` and `csv` format.
 
 ## Getting started
 
@@ -45,7 +45,7 @@ Pieta Ipatti, MD, Topi Turunen, MD, Lucia Prostedná, MD, and Professor Jarmo Re
 
 ## Authors
 
-[Antti Isosalo](https://github.com/aisosalo), [Satu Inkinen](https://github.com/siinkine) & Miika T. Nieminen, Research Unit of Medical Imaging, Physics and Technology, University of Oulu, Oulu, Finland.
+[Antti Isosalo](https://github.com/aisosalo), [Helinä Heino](https://github.com/hheino), [Satu Inkinen](https://github.com/siinkine) & Miika T. Nieminen (PI), Research Unit of Medical Imaging, Physics and Technology, University of Oulu, Oulu, Finland.
 
 ## Keyboard and mouse shortcuts
 
