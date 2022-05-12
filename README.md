@@ -47,6 +47,12 @@ Pieta Ipatti, MD, Topi Turunen, MD, Lucia Prostedná, MD, and Professor Jarmo Re
 
 [Antti Isosalo](https://github.com/aisosalo), [Helinä Heino](https://github.com/hheino), [Satu Inkinen](https://github.com/siinkine) & Miika T. Nieminen (PI), Research Unit of Medical Imaging, Physics and Technology, University of Oulu, Oulu, Finland.
 
+## How to cite
+
+If you found our work useful, consider citing the repository or the following publication:
+
+> Antti Isosalo, Henrik Mustonen, Topi Turunen, Pieta S. Ipatti, Jarmo Reponen, Miika T. Nieminen, Satu I. Inkinen, "Evaluation of different convolutional neural network encoder-decoder architectures for breast mass segmentation," Proc. SPIE 12037, Medical Imaging 2022: Imaging Informatics for Healthcare, Research, and Applications, 120370W (4 April 2022); https://doi.org/10.1117/12.2628190
+
 ## Keyboard and mouse shortcuts
 
 With the desired view (GUI window) active, freehand ROI can be drawn by holding left mouse button down, cancel before releasing left mouse button by pressing ESC
