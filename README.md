@@ -49,9 +49,11 @@ Pieta Ipatti, MD, Topi Turunen, MD, Lucia Prostedná, MD, and Professor Jarmo Re
 
 ## How to cite
 
-If you found our work useful, consider citing the repository or the following publication:
+If you found our work useful, consider citing the repository or one of the following publications:
 
-> Antti Isosalo, Henrik Mustonen, Topi Turunen, Pieta S. Ipatti, Jarmo Reponen, Miika T. Nieminen, Satu I. Inkinen, "Evaluation of different convolutional neural network encoder-decoder architectures for breast mass segmentation," Proc. SPIE 12037, Medical Imaging 2022: Imaging Informatics for Healthcare, Research, and Applications, 120370W (4 April 2022); https://doi.org/10.1117/12.2628190
+> Antti Isosalo, Henrik Mustonen, Topi Turunen, Pieta S. Ipatti, Jarmo Reponen, Miika T. Nieminen & Satu I. Inkinen, "Evaluation of different convolutional neural network encoder-decoder architectures for breast mass segmentation," Proc. SPIE 12037, Medical Imaging 2022: Imaging Informatics for Healthcare, Research, and Applications, 120370W (4 April 2022); https://doi.org/10.1117/12.2628190
+
+> Antti Isosalo, Satu I. Inkinen, Topi Turunen, Pieta S. Ipatti, Jarmo Reponen, & Miika T. Nieminen, "Independent evaluation of a multi-view multi-task convolutional neural network breast cancer classification model using Finnish mammography screening data," Computers in Biology and Medicine, 107023 (2023); https://doi.org/10.1016/j.compbiomed.2023.107023
 
 ## Keyboard and mouse shortcuts
 
