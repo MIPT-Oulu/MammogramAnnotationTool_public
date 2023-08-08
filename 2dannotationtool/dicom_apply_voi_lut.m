@@ -97,7 +97,7 @@ if sum(strcmp(fieldnames(nfo), 'VOILUTSequence')) == 1
     
     arr_out = reshape(clipped_iv_mapped, size(clipped_iv));
     
-elseif sum(strcmp(fieldnames(nfo), 'WindowCenter')) == 1 && sum(strcmp(fieldnames(nfo), 'WindowCenter')) == 1
+elseif sum(strcmp(fieldnames(nfo), 'WindowCenter')) == 1 && sum(strcmp(fieldnames(nfo), 'WindowWidth')) == 1
     if sum(strcmp(nfo.PhotometricInterpretation, 'MONOCHROME1')) == 0 && sum(strcmp(nfo.PhotometricInterpretation, 'MONOCHROME2')) == 0
         error('ValueError:photometricInterpretationNotAllowed',...
             'ValueError. \nOnly MONOCHROME1 and MONOCHROME2 are allowed for (0028,0004) Photometric Interpretation.')
