@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>MATLAB Mammogram Annotation Tool: User Guide</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta xmlns="http://www.w3.org/1999/xhtml" name="toctype" content="cat">
+        <meta xmlns="http://www.w3.org/1999/xhtml" name="infotype" content="cat">
+        <meta xmlns="http://www.w3.org/1999/xhtml" name="description" content="User Guide">
+        
+        <style>
+            body {
+            font-family:Arial, Helvetica, sans-serif;
+            background-color: white;
+            margin:10px;
+            }
+            
+            h1 {
+            color: #990000; 
+            font-size: x-large;
+            }
+            
+            h2 {
+            color: #990000;
+            font-size: medium;
+            }
+            
+            p,h1,h2,div.content div {
+            max-width: 600px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>User Guide</h1>
+        
+        <h2 id="10110">Introduction</h2>
+        
+        <div><p>
+                MATLAB<sup>&reg;</sup> Mammogram Annotation Tool allows you to interactively annotate mammographic images.
+        </p></div>
+        
+        <h2 id="10111">Opening a set of studies</h2>
+        
+        <div><p>
+                You can open a set of studies to be annotated by navigating to the main graphical user interface window 
+                drop down menu 'File' and choosing 'Open'. From the following dialog you then choose a CSV file 
+                containing the StudyInstanceUID's corresponding to the mammogram image locations (folders on your hard drive).
+        </p></div>
+        
+        <h2 id="10112">Inverting image</h2>
+        
+        <div><p>
+            You can invert (complement) an image by pressing the key 'i' when the main user interface, one of the 
+            mammographic views or the mammographic information window is active. Both views are inverted when the 
+            key 'i' is pressed.
+        </p></div>
+        
+        <h2 id="10113">Window/level</h2>
+        
+        <div><p>
+            You can adjust brightness and contrast by keeping the right mouse button down and dragging the mouse 
+            (horizontal movement, brightness; vertical movement, contrast). Window/level mouse pointer should 
+            appear. In medical applications, brightness/contrast adjustment is often referred as adjusting the 
+            window/level.
+        </p></div>
+        
+        <h2 id="10114">Zoom in / zoom out</h2>
+        
+        <div><p>
+                You can zoom in / zoom out the image by using the mouse wheel. Initial setting is restored when clicking 
+                the mouse wheel or pressing the key 'z'. 
+        </p></div>
+        
+        <h2 id="10115">Image panning</h2>
+        
+        <div><p>
+                Panning the image is available when the image has been zoomed in by keeping the left mouse button down and 
+                dragging the mouse. Hand shaped mouse pointer should appear.
+        </p></div>
+        
+        <h2 id="10116">Switching between mammographic views</h2>
+        
+        <div><p>
+                As default, you are shown the cranio-caudal (CC) view of right and left side mammograms. You can switch 
+                between cranio-caudal (CC) and medio-lateral oblique (MLO) view by pressing the key 'v'.
+        </p></div>
+        
+        <h2 id="10117">Navigating between studies</h2>
+        
+        <div><p>
+                You can move between the the different studies by pressing the keys 'right arrow' (next study) or 
+                'left arrow' (previous study).
+        </p></div>
+        
+        <div><p>
+                You can also type or paste your chosen study StudyInstanceUID into 
+                the corresponding main graphical user interface window text field and click pushbutton 'Go'.
+        </p></div>
+        
+        <h2 id="10119">Creating and removing annotations</h2>
+        
+        <div><p>
+                There is a freehand tool for drawing a region of interest. You can create annotation by first pressing one 
+                of the function keys F1 (malignant mass), F2 (benign mass), F3 (malignant calcification), 
+                F4 (benign calcification), and F5 and F6 (malignant and benign architectural distortion) and drawing a freehand region of interest 
+                (ROI) by holding down left mouse button. 
+                Drawing the ROI can be cancelled before releasing left mouse button by pressing the key 'ESC'. To finish the 
+                ROI, release the mouse button. ROI shape should appear.
+        </p></div>
+        
+        <div><p>
+                Annotations can be removed by first pressing the key 'r' and then selecting the ROI to be removed by left 
+                mouse click inside the ROI area using the crosshair which should appear. The tool has limitations when 
+                removing overlapping annotations.
+                Removing an annotation using the crosshair can be cancelled by pressing the key 'ESC' at any 
+                time before choosing any of the ROI masks.
+        </p></div>
+        
+        <div><p>
+                Visualizing the annotations is automatic (certain color shape should appear).
+        </p></div>
+        
+        <h2 id="10120">Saving results</h2>
+        
+        <div><p>
+                Saving the annotations and other user inputed data is automatic, but it can be forced by pressing the 
+                keys 'Ctrl + S' or navigating to the main graphical user interface window drop down menu 'File' and 
+                choosing 'Save'.
+        </p></div>
+        
+    </body>
+</html>
