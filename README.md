@@ -45,7 +45,7 @@ Pieta Ipatti, MD, Lucia Prostedná, MD, and Professor Jarmo Reponen, MD, PhD, ar
 
 ## Authors
 
-[Antti Isosalo](https://github.com/aisosalo), [Helinä Heino](https://github.com/hheino), [Satu I. Inkinen](https://github.com/siinkine), Topi Turunen & Miika T. Nieminen (PI), Research Unit of Medical Imaging, Physics and Technology, University of Oulu, Oulu, Finland.
+[Antti Isosalo](https://github.com/aisosalo), [Helinä Heino](https://github.com/hheino), [Satu I. Inkinen](https://github.com/siinkine), Topi Turunen & Miika T. Nieminen (PI), Research Unit of Health Sciences and Technology, University of Oulu, Oulu, Finland.
 
 ## How to cite
 
