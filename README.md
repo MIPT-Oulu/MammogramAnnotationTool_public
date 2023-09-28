@@ -7,6 +7,12 @@ This repository contains a MATLAB implementation of a tool for annotating mammog
 * MATLAB R2023a
 * Image Processing Toolbox
 
+Add the annotation tool folder to search path (when located in the tool root folder)
+
+```
+addpath '2dannotationtool'
+```
+
 From MATLAB Command Window run
 
 ```
@@ -19,11 +25,12 @@ Each examination is required to have 4 standard mammographic views. These examin
 
 ## Getting started
 
-From MATLAB Command Window run
+From MATLAB Command Window run 
 
 ```
 Main_GUI
 ```
+
 User instructions are available in `HTML` format and can be viewed by running
 ```
 web help/user_guide.html
