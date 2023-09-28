@@ -24,6 +24,10 @@ From MATLAB Command Window run
 ```
 Main_GUI
 ```
+User instructions are available in `HTML` format and can be viewed by running
+```
+web help/user_guide.html
+```
 
 ## License
 
