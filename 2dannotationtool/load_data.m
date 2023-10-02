@@ -24,6 +24,11 @@ handles_main.lcc_ind = []; % empty
 handles_main.lmlo_ind = []; % empty
 
 for ind = 1:length(file_list)
+    if length(file_list) ~= 4  % A. I. mod 2.10.2023
+        uiwait(msgbox('Not enough DICOM files in the study.','Read DICOM','error'));
+        return;
+    end
+
     % Read DICOM
     if isdicom(fullfile(file_list(ind).folder, file_list(ind).name)) % check that the file is valid DICOM file
         nfo = dicominfo(fullfile(file_list(ind).folder, file_list(ind).name));
