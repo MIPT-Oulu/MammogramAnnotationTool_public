@@ -9,30 +9,73 @@ This repository contains a MATLAB implementation of a tool for annotating mammog
 
 Add the annotation tool folder to search path (when located in the tool root folder)
 
-```
+```Matlab
 addpath '2dannotationtool'
 ```
 
 From MATLAB Command Window run
 
-```
+```Matlab
 [checks_flag, required_products] = check_dependencies()
 ```
 
-## Data requirements
+## Data requirements and expected outputs
 
-Each examination is required to have 4 standard mammographic views. These examinations should be listed in a dedicated `study_info.csv` file, an example file is provided. The `study_info.csv` file should be located within the root of your `CUSTOMDATASET` folder. Mammograms should be located in `images` within the same root folder. The software will make additional subfolders for saving annotation masks and other results in `mat` and `csv` format.
+Each examination is required to have 4 standard mammographic views. These examinations should be listed in a dedicated `study_info.csv` file, an example file is provided. The `study_info.csv` file should be located within the root of your `CUSTOMDATASET` folder. Mammograms should be located in `images` within the same root folder, e.g.,
+
+```
+CUSTOMDATASET
+ ├─ images
+ │  ├─ 1.3.6.1.4.1.9590.100.1.1.134970997511.22275.48
+ │  │     └─ 1.3.6.1.4.1.9590.100.1.1.134970997511.22275.48.20586908.dcm
+ │  │     └─ 1.3.6.1.4.1.9590.100.1.1.134970997511.22275.48.20586986.dcm
+ │  │     └─ 1.3.6.1.4.1.9590.100.1.1.134970997511.22275.48.20586960.dcm
+ │  │     └─ 1.3.6.1.4.1.9590.100.1.1.134970997511.22275.48.20586934.dcm
+ │  └─ ...
+ └─ study_info.csv
+```
+where `1.3.6.1.4.1.9590.100.1.1.134970997511.22275.48` is (in this example) a unique identifier-type folder name referring to a certain study.
+
+The software will make additional study-wise subfolders for saving annotation masks and other results in `MAT` and `CSV` format. `MAT`-file contents will be as follows: 
+```Matlab
+       annotations: [1×4 struct]
+    breast_density: '1'
+    classification: [1×1 struct]
+              inds: [1×1 struct]
+      remarks_text: 'n/a'
+      status_ready: 1
+             study: '1.3.6.1.4.1.9590.100.1.1.134970997511.22275.48'
+```
+where, e.g., the visual and characterizing information of the annotations _for each of the standard views_ are stored as a cell array
+```Matlab
+    {'annotation_malignant_mass'                           }
+    {'annotation_benign_mass'                              }
+    {'annotation_malignant_calc'                           }
+    {'annotation_benign_calc'                              }
+    {'annotation_malignant_architechtural_distortion'      }
+    {'annotation_benign_architechtural_distortion'         }
+    {'annotation_malignant_mass_count'                     }
+    {'annotation_benign_mass_count'                        }
+    {'annotation_malignant_calc_count'                     }
+    {'annotation_benign_calc_count'                        }
+    {'annotation_malignant_architechtural_distortion_count'}
+    {'annotation_benign_architechtural_distortion_count'   }
+    {'annotation_malignant_mass_char'                      }
+    {'annotation_malignant_mass_x_center'                  }
+    {'annotation_malignant_mass_y_center'                  }
+    ...
+``` 
 
 ## Getting started
 
 From MATLAB Command Window run 
 
-```
+```Matlab
 Main_GUI
 ```
 
 User instructions are available in `HTML` format and can be viewed by running
-```
+```Matlab
 web help/user_guide.html
 ```
 
